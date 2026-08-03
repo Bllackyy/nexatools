@@ -1,7 +1,6 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import Navbar from "@/components/Navbar";
 import Link from "next/link";
 
 const tools = [
@@ -94,7 +93,7 @@ export default function ToolsPage() {
 
   return (
     <>
-      <Navbar />
+      
 
       <main className="min-h-screen bg-[#050816] text-white px-6 py-12">
         <div className="mx-auto max-w-7xl">
