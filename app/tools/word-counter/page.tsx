@@ -46,7 +46,7 @@ export default function WordCounter() {
 
   return (
     <>
-      <Navbar />
+      
 
       <main className="min-h-screen bg-[#050816] px-6 py-12 text-white">
         <div className="mx-auto max-w-6xl">
