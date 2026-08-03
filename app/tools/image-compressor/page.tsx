@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import Navbar from "@/components/Navbar";
+
 import imageCompression from "browser-image-compression";
 
 export default function ImageCompressor() {
@@ -45,7 +45,7 @@ export default function ImageCompressor() {
 
   return (
     <>
-      <Navbar />
+      
 
       <main className="min-h-screen bg-[#050816] text-white px-6 py-12">
         <div className="mx-auto max-w-4xl">
