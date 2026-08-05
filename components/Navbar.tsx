@@ -15,6 +15,12 @@ export default function Navbar() {
             NexaTools
           </span>
         </Link>
+        <Link
+  href="/contact"
+  className="text-gray-300 transition hover:text-white"
+>
+  Contact
+</Link>
 
         {/* Desktop Navigation */}
         <nav className="hidden items-center gap-8 md:flex">
