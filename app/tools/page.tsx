@@ -81,6 +81,13 @@ const tools = [
   href: "/tools/ai-prompt-generator",
   category: "AI",
 },
+{
+  icon: "📑",
+  title: "PDF Merger",
+  description: "Merge multiple PDF files into one.",
+  href: "/tools/pdf-merger",
+  category: "PDF",
+},
 ];
 
 export default function ToolsPage() {
