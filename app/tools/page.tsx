@@ -74,6 +74,13 @@ const tools = [
     href: "/tools/timestamp-converter",
     category: "Developer",
   },
+  {
+  icon: "🤖",
+  title: "AI Prompt Generator",
+  description: "Generate professional AI prompts instantly.",
+  href: "/tools/ai-prompt-generator",
+  category: "AI",
+},
 ];
 
 export default function ToolsPage() {
